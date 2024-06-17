@@ -1,0 +1,241 @@
+/*Fondo de la pagina*/
+/*para que la imagen ocupe toda la pantalla usar background-size: 100%*/
+body {
+  background-image: url(img/FONDOS/uñasanimalprint.avif);
+}
+
+/*Enunciado principal*/
+header h1 {
+  text-align: center;
+  background-color: none;
+  font-size: larger;
+}
+
+/* estilo del menu*/
+nav ul li {
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0;
+  color: none;
+  background-color: none;
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+
+/* estilo del menu*/
+nav li {
+  display: inline-block;
+  width: 10%;
+  padding: 5px 10px;
+  background-color: #000;
+  border: 20px solid #000;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  margin-right: ;
+}
+
+/*estilo de 'menu'*/
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+/*estilo del titulo Bienvenidos*/
+.bienvenidos-a-proverbios{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-size-adjust: 70;
+  font-size: 160%;
+}
+/*Estilo */
+h2 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+/*Estilo del enunciado MANICURIA Y PEDICURIA*/
+h4 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+/* Pagina Nuestros servicios*/
+.nuestros-servicios p{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+/* Cuerpo de la pagina*/
+body {
+  background: url("img/FONDOS/uñasanimalprint.avif");
+  background-size: auto;
+
+ 
+}
+/*Pagina 'Nuestros servicios'*/
+.nuestros-servicios h1 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-style: oblique;
+  font
+}
+.centrar-imagenes {
+  text-align: center;
+}
+.infantil {
+  text-align: center;
+}
+.bellezamanosypies {
+  text-align: center;
+}
+/*Pagina de contacto*/
+.contacto, .logo{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-size-adjust: 50;
+}
+.p {
+  text-size-adjust: 1em;
+}
+/*Estilo de whatsapp*/
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.4));
+  line-height: 2px;
+  background-color: rgb(54, 231, 54);
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+}
+/*Estilo del LOGO*/
+.logo {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-style: oblique;
+  font-size: 2em;
+}
+h4 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+/*barra de navegacion*/
+div {
+  text-align: center;
+}
+
+main {
+  text-decoration: none; color: #fff;
+  text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.semipermanente {
+  text-align: center;
+}
+/*pagina 'Nosotros'*/
+.nosotros h1 .logo{
+  font-size: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  padding: 20px;
+  width: 50px;
+} 
+
+/* Pagina 'registro'*/
+.registro form{
+  margin: auto;
+  padding: 20px;
+  width: 50;
+  background-image: image url(img/FONDOS/uñasanimalprint.avif);
+  border-radius: 8px;
+text-decoration: none;
+color: white;
+text-align:left;
+}
+
+.registro label{
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
+
+}
+.registro input, .registro select{
+  width: 50%;
+  padding: 10px;
+margin: 5px 0;
+border: 1px solid #ccc ;
+border-radius: 2px;
+}
+
+.registro button{
+  background-color: wheat;
+  border:burlywood;
+  padding:  10px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Página 'Login' */
+.login form {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.login label {
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+}
+
+.login button {
+    background-color:burlywood;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: burlywood;
+
+}
+footer{
+  text-align: center;
+  text-decoration: none;
+  color:bisque;
+  font: 20px;
+}
