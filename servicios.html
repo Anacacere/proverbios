@@ -1,81 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <body>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.5.2/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css" />
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
     <title>
       Nuestros servicios</title>
-    <link rel="stylesheet" href="estilos.css" />
+      <link rel="stylesheet" href="css/estilos.css">
     </head> 
-  <h1><a href="index.html"><img src="img/LOGO/logo2.png" alt="pagina-de-inicio"width="180"
-    height="180"></a>
-  </a>
-</h1>
-<div>
-  <nav>
-    <ul class="menu">
+    <body>
+      <header>
+        <h1>
+          <a
+          href="index.html">
+            <img
+             id="img-logo"
+            src="img/LOGO/Logo Belleza Manicura Femenino Rosa.png"
+            alt="Proverbios"/>
+        </a>
+        </h1>
+
+  <nav role="navigation">
+    <ul>
       <li><a href="index.html">INICIO</a></li>
       <li><a href="servicios.html">SERVICIOS</a></li>
-      <li><a href="quienessomos.html">NOSOTROS</a></li>
+      <li><a href="nosotros.html">NOSOTROS</a></li>
       <li><a href="contacto.html">CONTACTO</a></li>
       <li><a href="galeria.html">NUESTROS TRABAJOS</a></li>
+      <li><a href="ubicacion.html">UBICACION</a></li>
+      <li><a href="registro.html">REGISTRARME</a></li>
     </ul>
   </nav> 
-</div>
+</header>
 <main>
-    <h2 class="nuestros-servicios">Nuestros servicios</h2>
-    <hr>
-    <h1>MANICURIA TRADICIONAL</h1>
-    <p>
-       <em><strong><br>Este es un trabajo de manicuría tradicional, dónde se realiza una
-        higiene, repujado,</br> pulido, hidratación, nutrición y esmaltado con
-        calcios, vitamina E y fortalecedores a las uñas.</strong></em>
-    </p>
-    <img
-      src="img/manicuria/TRADICIONAL1.jpg"
-      alt="Servicio de uñas tradicional"
-      width="180"
-      height="180"
-    />
-    <hr>
-    <h1>BELLEZA DE MANOS Y PIES</h1>
-      <p> <em><strong>Para la belleza de tus manos y pies, contamos con servicio de esmaltados semi permanente, uñas esculpidas (gel y acrílicas), y decoraciones en uñas.</strong></em>
-      </p>
-      <section class="SEMIPERMANENTE">
-      <img src="img/manicuria/SEMIPERMANENTE2.jpg" alt="esmaltado-de-uñas2"width="180"height="180">
-      <img src="img/manicuria/SEMIPERMANENTE3.jpg" alt="esmaltado-de-uñas3"width="180"height="180">
-      <img src="img/manicuria/MANOSYPIES1.jpg" alt="manos-y-pies"width="180" height="180"></section>
-    <hr>
-<section class="infantil">
-<h2> MANICURIA INFANTIL</h2>
-    <p><em><strong>
-      La manicura infantil es una opción ideal para consentir a los más pequeños. <br>Este tipo de manicura está enfocada en resaltar al 100% la creatividad y estilo de tu niño. <br>Nuestras profesionales cuidarán de sus uñas y cutículas, ofreciendo opciones de colores brillantes y diseños únicos.
-    </strong></em></p></section>
-    <img src="img/manicuriainfantil/manicuriainfantilniña.jpg" alt="manicuria-infantil"width="280"height="180">
-   <hr>
-    <section class="depilacion">
-<h2>DEPILACION Y MASAJES</h2>
-<p><em><strong> No sólo nos ocupamos del cuidado y belleza de las uñas, además ofrecemos los servicios de depilación. <br>La depilación es la técnica que permite remover todo el vello de la zona a tratar. <br>No importa qué área sea, puede ser desde el rostro, pecho o zona íntima. <br>
-  Empleamos estrictas medidas de bioseguridad e higiene con cada cliente. Por ello, puedes tener la seguridad de estar en buenas manos.
-</strong></em></p>
-<img src="img/masajes/MASAJES.avif" alt="masajes" width="180"height="180">
-<img src="img/masajes/belleza-spa_144627-46177.jpg" alt="masajes-en-spa" width="180"height="180">
-<hr>
-      <h2>MANICURIA MASCULINA</h2>
-      <p><em><strong>
-      Atrás han quedado los tiempos en que los hombres se veían obligados a tener las manos ásperas o las uñas desfiguradas. <br> Ahora los hombres acuden a salones de belleza para limarse y cortarse las uñas. <br>El proceso no termina, además, sin un relajante masaje que deja una sensación de suavidad y delicadeza en las manos. 
-    </strong></em></p>
-    <img src="img/manicuriamasculina/MANICURIAMASCULINA.avif" alt="manicuria-masculina"width="180"height="180"> 
+<section id="nuestros-servicios" class="nuestros-servicios" ></section>
+
+    <h2>Nuestros servicios</h2>
+    <table class="servicios-tabla">
+      <caption>
+        Servicios disponibles en Estetica Proverbios
+      </caption>
+      <thead>
+        <tr>
+          <th>Categoria</th>
+          <th>Servicio</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5">Manicuria</td>
+          <td>Manicuria tradicional</td>
+          <td>Limado y pulido de uñas, repujado de cuticulas, extraccion de callosidades y esmaltado tradicional de tratamiento a eleccion.</td>
+          <td>$6.000</td>
+        </tr>
+        <tr>
+          <td>Esmaltado semipermanente simple</td>
+          <td>Proceso de manicuria tradicional con esmaltado semipermanente liso, puede existir variacion de colores.</td>
+          <td>$7.000</td>
+          <tr>
+            <td>Esmaltado semipermanente con diseño</td>
+            <td>Proceso de manicuria tradicional con esmaltado semipermanente y diseño simple (nail art).</td>
+            <td>$7.500</td>
+          </tr>
+          <tr>
+            <td>Servicio de kapping adicional</td>
+            <td>Proceso de manicuria tradicional con baño de refuerzo en gel de construccion para fortalecer la lamina ungueal.</td>
+            <td>$1.000</td>
+          </tr>
+
+          <tr>
+            <td>Nail Art</td>
+            <td>Diseños complejos adicionales, semipermanente mas detallado en mano alzada y joyeria</td>
+            <td>$500</td>
+          </tr>
+          <tr>
+            <td rowspan="4">Pedoestetica</td>
+            <td>Pedicuria y podoestetica</td>
+            <td>Limado y pulido de uñas, repujado de cuticulas, extraccion de durezas y callosidades, exfoliacion y nutricion profunda, esmaltado tradicional de tratamiento a eleccion.</td>
+            <td>$8.500</td>
+          </tr>
+
+          <tr>
+<td>Esmaltado semipermanente liso</td>
+<td> Pedicuria y podoestetica con esmaltado semipermanente liso o variacion de color.</td>
+<td>$9.599</td>
+          </tr>
+          <tr>
+<td>Esmaltado semipermanente con diseño</td>
+<td>Pedicuria y podoestetica con esmaltado semipermanente y diseño (nail art)</td>
+<td>$10.000</td>
+          </tr>
+          <tr>
+            <td>Soft gel</td>
+            <td>Con semipermanente</td>
+            <td>$10.000</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
-    <section class="whatsapp">
-      <a href="https://wa.me/+542984904954
-      "target="_blank">
-        <img src="img/whatsapp.png" alt="imagen-de-whatsapp">
-      </a> </section>
     </main>
     <footer>
-      <p>Derechos reservados PROVERBIOS © 2024</p>
+      <p>© 2024 | Proverbios | Todos los derechos reservados</p>
+      <div class="social-media">
+        <p>Síguenos:</p>
+        <a href="https://twitter.com" target="_blank" class="social-icon"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://facebook.com" target="_blank" class="social-icon"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://youtube.com" target="_blank" class="social-icon"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://instagram.com" target="_blank" class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <p class="disclaimer">
+        Este sitio fue desarrollado solo para fines académicos.<br />
+        Los nombres, imágenes, videos y marcas comerciales son propiedad de sus
+        dueños.<br />
+        No se pretende ningún uso comercial ni infracción de derechos de autor.
+      </p>
     </footer>
+      <a href="https://wa.me/+542984904954" class="whatsapp-float"
+      target="_blank">
+        <img src="img/whatsapp.png" alt="imagen-de-whatsapp">
+      </a>
+    
   </body>
 </html>
